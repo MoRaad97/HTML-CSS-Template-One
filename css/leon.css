@@ -428,7 +428,7 @@ body {
 }
 .contact .contact-content p:last-child {
   margin-top: 20px;
-  font-size: 16px;
+  font-size: 17px;
   display: flex;
   justify-content: center;
   color: #2c4755;
@@ -437,6 +437,12 @@ body {
   text-decoration: none;
   color: #2c4755;
   margin-left: 8px;
+  transition: 0.3s;
+  font-size: 16px;
+}
+.contact .contact-content p:last-child a:hover {
+  color: var(--main-color);
+  font-size: 17px;
 }
 /* contact end */
 /* footer start */
